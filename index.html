@@ -63,6 +63,91 @@
   .title{font-weight:bold;font-size:15px;margin-bottom:3px}
   .desc{font-size:11px;color:var(--muted)}
   .arrow{color:#778086;font-size:18px}
+    .custom{
+    background:linear-gradient(180deg,#1c2022,#141718);
+    border:1px solid var(--border);
+    border-radius:5px;
+    padding:16px;
+    box-shadow:inset 0 1px rgba(255,255,255,.025);
+  }
+
+  .custom-label{
+    font-size:9px;
+    letter-spacing:1.7px;
+    color:#8b959a;
+    font-weight:bold;
+    margin-bottom:7px;
+  }
+
+  .custom h2{
+    font-size:18px;
+    margin:0 0 7px;
+  }
+
+  .custom p{
+    margin:0;
+    color:var(--muted);
+    font-size:11px;
+    line-height:1.55;
+  }
+
+  .offer{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin:14px 0 11px;
+    padding:11px 12px;
+    background:#101314;
+    border:1px solid #303639;
+    border-radius:4px;
+  }
+
+  .offer-price{
+    font-size:23px;
+    font-weight:bold;
+    color:#d7dcdf;
+    letter-spacing:-.5px;
+  }
+
+  .offer-copy{
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+  }
+
+  .offer-copy strong{
+    font-size:10px;
+    letter-spacing:1px;
+  }
+
+  .offer-copy span{
+    font-size:9px;
+    color:var(--muted);
+  }
+
+  a.pay{
+    display:flex;
+    align-items:center;
+    gap:9px;
+    text-decoration:none;
+    color:var(--text);
+    background:linear-gradient(180deg,#252b2e,#1a1e20);
+    border:1px solid #485055;
+    border-radius:4px;
+    padding:11px 12px;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:.4px;
+  }
+
+  a.pay:hover{
+    background:#272d30;
+    border-color:#697278;
+  }
+
+  a.pay .arrow{
+    margin-left:auto;
+  }
   .footer{
     text-align:center;color:#5f686d;font-size:10px;
     margin-top:16px;letter-spacing:.5px
@@ -120,7 +205,36 @@
       </a>
     </div>
 
+        <div class="divider"></div>
+
+    <section class="custom">
+      <div class="custom-label">CUSTOM TRADING HUB</div>
+
+      <h2>Want your own Trading Hub?</h2>
+
+      <p>
+        I'll build you a custom one-link landing page like this one with your
+        Bazaar, Prices, Trade &amp; Forum links.
+      </p>
+
+      <div class="offer">
+        <div class="offer-price">89M</div>
+
+        <div class="offer-copy">
+          <strong>PAID VIA TRADE</strong>
+          <span>Once payment is received, I'll build your personal hub.</span>
+        </div>
+      </div>
+
+      <a class="pay" href="https://tinyurl.com/yc6363ww">
+        <span>🤝</span>
+        <span>PAY 89M — TRADE xScritto</span>
+        <span class="arrow">›</span>
+      </a>
+    </section>
+
     <div class="divider"></div>
+
     <div class="footer">
       xScritto Trading Hub
       <div class="tiny">Torn City • Personal trading links</div>
