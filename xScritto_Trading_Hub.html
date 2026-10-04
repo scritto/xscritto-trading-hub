@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>xScritto | Trading Hub</title>
+<style>
+  :root{
+    --bg:#0d0f10;
+    --panel:#171a1c;
+    --panel2:#1d2124;
+    --border:#343a3e;
+    --text:#e6e8e9;
+    --muted:#8e969b;
+    --accent:#c7d0d5;
+    --accent2:#8f9aa0;
+    --danger:#a9b0b4;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    min-height:100vh;
+    font-family:Arial,Helvetica,sans-serif;
+    color:var(--text);
+    background:
+      radial-gradient(circle at 50% -10%, #252a2e 0, transparent 42%),
+      linear-gradient(180deg,#0b0d0e,#111415 55%,#090a0b);
+  }
+  .wrap{max-width:620px;margin:0 auto;padding:28px 16px 40px}
+  .header{
+    background:linear-gradient(180deg,#202427,#151819);
+    border:1px solid var(--border);
+    border-radius:7px 7px 3px 3px;
+    box-shadow:0 12px 35px rgba(0,0,0,.45), inset 0 1px rgba(255,255,255,.04);
+    padding:22px 20px 18px;
+  }
+  .topline{
+    display:flex;align-items:center;justify-content:space-between;
+    border-bottom:1px solid #303538;padding-bottom:12px;margin-bottom:17px
+  }
+  .brand{font-size:12px;font-weight:bold;letter-spacing:2px;color:#aeb6ba;text-transform:uppercase}
+  .status{font-size:10px;color:#7e888d}
+  .status:before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:#899298;margin-right:6px;vertical-align:1px}
+  h1{font-size:29px;margin:0 0 7px;letter-spacing:-.5px}
+  .sub{margin:0;color:var(--muted);font-size:13px}
+  .grid{display:grid;gap:10px;margin-top:14px}
+  a.card{
+    display:flex;align-items:center;gap:14px;
+    text-decoration:none;color:var(--text);
+    background:linear-gradient(180deg,var(--panel2),var(--panel));
+    border:1px solid var(--border);
+    border-radius:5px;padding:14px 15px;
+    transition:.15s ease;
+    box-shadow:inset 0 1px rgba(255,255,255,.025);
+  }
+  a.card:hover{transform:translateY(-1px);border-color:#596268;background:#22272a}
+  .icon{
+    width:39px;height:39px;display:grid;place-items:center;
+    border:1px solid #454c50;border-radius:4px;
+    background:#111416;font-size:19px;flex:none;
+  }
+  .info{min-width:0;flex:1}
+  .title{font-weight:bold;font-size:15px;margin-bottom:3px}
+  .desc{font-size:11px;color:var(--muted)}
+  .arrow{color:#778086;font-size:18px}
+  .footer{
+    text-align:center;color:#5f686d;font-size:10px;
+    margin-top:16px;letter-spacing:.5px
+  }
+  .divider{height:1px;background:#292e31;margin:18px 0 12px}
+  .tiny{font-size:9px;color:#50585d}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <main class="header">
+    <div class="topline">
+      <div class="brand">TRADING HUB</div>
+      <div class="status">ONLINE</div>
+    </div>
+
+    <h1>xScritto</h1>
+    <p class="sub">Bazaar • Prices • Trades • Forum</p>
+
+    <div class="grid">
+      <a class="card" href="https://tinyurl.com/24rzwa59">
+        <div class="icon">🛒</div>
+        <div class="info">
+          <div class="title">BAZAAR</div>
+          <div class="desc">Browse current stock &amp; buy items</div>
+        </div>
+        <div class="arrow">›</div>
+      </a>
+
+      <a class="card" href="https://tinyurl.com/mr3e8cv2">
+        <div class="icon">💰</div>
+        <div class="info">
+          <div class="title">PRICES</div>
+          <div class="desc">Check the current pricelist</div>
+        </div>
+        <div class="arrow">›</div>
+      </a>
+
+      <a class="card" href="https://tinyurl.com/yc6363ww">
+        <div class="icon">🤝</div>
+        <div class="info">
+          <div class="title">TRADE</div>
+          <div class="desc">Start a trade with xScritto</div>
+        </div>
+        <div class="arrow">›</div>
+      </a>
+
+      <a class="card" href="https://tinyurl.com/2s457266">
+        <div class="icon">📣</div>
+        <div class="info">
+          <div class="title">FORUM</div>
+          <div class="desc">Visit the trading forum</div>
+        </div>
+        <div class="arrow">›</div>
+      </a>
+    </div>
+
+    <div class="divider"></div>
+    <div class="footer">
+      xScritto Trading Hub
+      <div class="tiny">Torn City • Personal trading links</div>
+    </div>
+  </main>
+</div>
+</body>
+</html>
